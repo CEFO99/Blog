@@ -1,0 +1,142 @@
+@font-face {
+  font-family: HACKED;
+  src: url(HACKED.ttf);
+  }
+
+* {
+    box-sizing: border-box; 
+  }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header>h1{
+    font-family: HACKED;
+    text-align: center;
+  }
+
+  .content > article {
+    flex: 4;
+    min-height: 60vh;
+  }
+  header, footer {
+    background: lightgrey;
+    height: 20vh;
+  }
+  header, footer, article, nav {
+    padding: 1em;
+  }
+
+  #cefo{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+  }
+
+  #alerav{
+    max-width: 100%;
+    height: auto; 
+  }
+
+  #buttons {
+    text-align: center;
+  }
+
+  .btn {
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.blue {
+    background-color: #55acee;
+    box-shadow: 0px 5px 0px 0px #3C93D5;
+  }
+  
+  .blue:hover {
+    background-color: #6FC6FF;
+  }
+  
+  .green {
+    background-color: #2ecc71;
+    box-shadow: 0px 5px 0px 0px #15B358;
+  }
+  
+  .green:hover {
+    background-color: #48E68B;
+  }
+  
+  .red {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #CE3323;
+  }
+  
+  .red:hover {
+    background-color: #FF6656;
+  }
+  
+  .purple {
+    background-color: #9b59b6;
+    box-shadow: 0px 5px 0px 0px #82409D;
+  }
+  
+  .purple:hover {
+    background-color: #B573D0;
+  }
+  
+  .orange {
+    background-color: #e67e22;
+    box-shadow: 0px 5px 0px 0px #CD6509;
+  }
+  
+  .orange:hover {
+    background-color: #FF983C;
+  }
+
+  #lunes, #martes, #miercoles, #jueves, #viernes{
+      display: none;
+  }
+
+  #lunes{
+    background-color: #55acee;
+  }
+
+  #martes{
+    background-color: #15B358;
+  }
+
+  #miercoles{
+    background-color: #e74c3c;
+  }
+
+  #jueves{
+    background-color: #9b59b6;
+  }
+
+  #viernes{
+    background-color: #FF983C;
+  }
