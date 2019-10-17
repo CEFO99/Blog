@@ -3,6 +3,8 @@
   src: url(HACKED.ttf);
   }
 
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box; 
   }
@@ -46,7 +48,7 @@
   }
 
   #cefo{
-    border-radius: 50%;
+    border-radius: 8px;
     max-width: 100%;
     height: auto;
     align-content: center;
@@ -68,6 +70,7 @@
     text-decoration: none;
     margin: 20px;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
   }
@@ -123,20 +126,82 @@
 
   #lunes{
     background-color: #55acee;
+    padding: 50px 100px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #lunes>img{
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 5px solid #ddd;
+    border-radius: 4px;
   }
 
   #martes{
     background-color: #15B358;
+    padding: 50px 100px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #martes>img{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border: 5px solid #ddd;
+    border-radius: 4px;
   }
 
   #miercoles{
     background-color: #e74c3c;
+    padding: 50px 100px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #miercoles>img{
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 5px solid #ddd;
+    border-radius: 4px;
   }
 
   #jueves{
     background-color: #9b59b6;
+    padding: 50px 100px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #jueves>img{
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 5px solid #ddd;
+    border-radius: 4px;
   }
 
   #viernes{
     background-color: #FF983C;
+    padding: 50px 100px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #viernes>img{
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 5px solid #ddd;
+    border-radius: 4px;
+  }
+
+  footer>img{
+    width: 100px;
+    display: block;
+    margin: auto;
   }
